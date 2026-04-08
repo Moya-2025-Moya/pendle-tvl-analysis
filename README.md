@@ -201,16 +201,4 @@ jupyter nbconvert --to notebook --execute analysis.ipynb --output analysis_execu
 
 The notebook loads all data from relative paths (`BASE = "."`) and saves 16 figures to `figures/`.
 
----
 
-## Data Corrections vs. Original Document
-
-| Claim in original doc | Verified value |
-|---|---|
-| PT yield "~13% → sub-5%" | **17.9% → 6.5%** |
-| vePENDLE lock rate "~20%" | **25–30%** (Oct–Dec 2025) |
-| DAU peak "9,900" | **8,874** (Nov 6, 2025) |
-| BTC decline "~37%" | -37% from Nov peak; **-23.5% from Jan 1 baseline** |
-| Morpho "flat to slightly positive" | **+12.7%** Jan–Apr 2026 |
-| Aave decline "roughly -20%" | **-25.0%** (precise) |
-| Pendle-idiosyncratic excess "~24 ppts" | **~27 ppts** vs Aave |
